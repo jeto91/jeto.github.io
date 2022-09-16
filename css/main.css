@@ -93,7 +93,9 @@ h1{
     height: 25px;
     width: 120px;
 }
-
+.knapp:hover {
+    background-color: #252525fa;
+}
 
 
 
