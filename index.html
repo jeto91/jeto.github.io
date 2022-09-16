@@ -1,9 +1,38 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Jeto</h1>
-  <p>velkommen skarru vær!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>Logg inn</title>
+        <link rel="stylesheet" href="css\main.css">
+        
+    </head>
+    <body>
+        
+        <form class="midtmeny">
+            <h1>Logg Inn</h1>
+            <div id="bn">
+                <input type="text" placeholder="Brukernavn">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <div id="pw">
+                <input type="password" placeholder="Passord">
+            </div>
+            <div>
+                <input type="submit" value="Logg inn" class="loginbtn">
+            </div>
+            <div class="registrer">
+                Har du ikke registrert deg? <br>
+                <a href="#">klikk her</a>
+            </div>
+        </form>
+        <form class="hjelpemeny">
+            <input type="submit" value="Regler" class="knapp">
+            <input type="submit" value="FAQ" class="knapp">
+            <input type="submit" value="Fargemodus" class="knapp">
+            <input type="submit" value="Systemmeldinger" class="knapp">
+            <input type="submit" value="Tilbakemelding" class="knapp">
+        </form>
+        <script src="index.js">
+        </script>
+    </body>
 </html>

@@ -1,0 +1,100 @@
+*{
+   font-family: Arial, Helvetica, sans-serif; 
+   margin: 10;
+   padding: 10;
+   text-decoration: none;
+   box-sizing: border-box ;
+
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #08367ac0, #1c3eacb0, #62c7ced3, #858a88ad, #222fe775);
+}
+.midtmeny{
+    background-color: #252525a8; grey
+    width: 80%;
+    height: auto;
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+#bn{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+#bn input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+#pw{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+#pw input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+
+
+}
+.loginbtn{
+    
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #858a88;
+    background-size: 200%;
+    color: white;
+    font-size: 15px;
+}
+.loginbtn:hover{
+    background-color: #bcc0be;
+}
+.registrer{
+    color: white;
+    margin: 45px;
+    text-align: center;
+}
+.registrer a{
+    color: rgb(255, 0, 0);
+}
+.registrer a:hover{
+    color: white;
+}
+.hjelpemeny{
+    height: 25px;
+    position: fixed;
+    top: 1%;
+    color: #252525;
+}
+.knapp {
+    color: #ffffff;
+    background-color: #25252580;
+    height: 25px;
+    width: 120px;
+}
+
+
+
+
+
